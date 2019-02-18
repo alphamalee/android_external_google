@@ -50,7 +50,7 @@ public abstract class NavigationBarEffect implements FeedbackEffect {
     }
 
     @Override
-	public void onProgress(float f, int i) {
+    public void onProgress(float f, int i) {
         refreshFeedbackEffects();
         int i2 = 0;
         while (true) {
@@ -68,7 +68,7 @@ public abstract class NavigationBarEffect implements FeedbackEffect {
     }
 
     @Override
-	public void onRelease() {
+    public void onRelease() {
         refreshFeedbackEffects();
         int i = 0;
         while (true) {
