@@ -4,7 +4,7 @@ import android.provider.Settings;
 import android.view.View;
 import android.widget.ListView;
 
-import com.abc.support.preferences.AppPicker;
+import com.havoc.support.preferences.AppPicker;
 
 public class ShortSqueezeCustomApp extends AppPicker {
 
